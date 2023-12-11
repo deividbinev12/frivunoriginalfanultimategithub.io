@@ -1,15 +1,33 @@
-body
-{
-    margin: 0px;
-    padding: 0px;
-
-}
-.background
-{
-    width: 100%;
-    height: 100vh;
+body{
     background-image: url(Untitled1542_20231210152341.png);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img{
+    float: left;
+    border: 2px solid;
+    background: purple;
+}
+
+h1{
+    width: 100;
+    height: 100;
+    border: 2px solid;
+    font-size: 30px;
+    text-align: left;
+    background: purple;
+
+}
+
+p{ 
+    width: 100;
+    height: 100;
+    border: 2px solid;
+    font-size: 30px;
+    text-align: left;
+    background: purple;
+
 }
